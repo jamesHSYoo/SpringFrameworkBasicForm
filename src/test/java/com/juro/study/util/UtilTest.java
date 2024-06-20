@@ -16,7 +16,15 @@ public class UtilTest {
         double basePrice = 321;
 
         System.out.println(Util.getLogReturn(price, basePrice));
-
     }
+    @Test
+    public void testChangeNegative(){
+        int val = 3;
 
+        System.out.println("origin value : " + val);
+
+        Util.changeNegative(val);
+
+        System.out.println("value after changeNegative method: " + val);
+    }
 }
