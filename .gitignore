@@ -196,3 +196,5 @@ $RECYCLE.BIN/
 
 # 설정폴더 추가
 /src/**/resources
+
+/.vscode
