@@ -19,4 +19,28 @@ public class UtilTest {
 
     }
 
+    @Test
+    public void testTryCatch(){
+
+        int i = 0 ; 
+        while(i < 20){
+            
+            try {
+                System.out.println(i);
+                if(i%2 == 0){
+                    throw new Exception();
+                }
+            } catch (Exception e) {
+                System.out.println("Error occured!");
+                // TODO: handle exception
+            } finally{
+                i++;
+            }
+            
+        }
+
+
+    }
+
+
 }
