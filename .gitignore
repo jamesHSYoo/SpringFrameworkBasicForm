@@ -198,3 +198,7 @@ $RECYCLE.BIN/
 /src/**/resources
 
 /.vscode
+
+target/ 
+
+*.class
