@@ -1,9 +1,7 @@
 package com.juro.study;
 
-import com.juro.study.config.AppConfig;
 import com.juro.study.server.Controller;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
